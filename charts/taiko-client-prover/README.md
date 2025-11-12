@@ -20,9 +20,9 @@ A Helm chart for Kubernetes
 
 | Key | Type | Default | Description |
 |-----|------|---------|-------------|
-| taiko-client.global.l1Endpoints.l1Beacon | string | `"http://ethereum-node-holesky-beacon:5052"` |  |
-| taiko-client.global.l1Endpoints.l1Http | string | `"http://ethereum-node-holesky-execution:8545"` |  |
-| taiko-client.global.l1Endpoints.l1Ws | string | `"ws://ethereum-node-holesky-execution:8545"` |  |
+| taiko-client.global.l1Endpoints.l1Beacon | string | `"http://ethereum-node-hoodi-beacon:5052"` |  |
+| taiko-client.global.l1Endpoints.l1Http | string | `"http://ethereum-node-hoodi-execution:8545"` |  |
+| taiko-client.global.l1Endpoints.l1Ws | string | `"ws://ethereum-node-hoodi-execution:8545"` |  |
 | taiko-client.global.l2Endpoints.l2Auth | string | `"http://taiko-node-taiko-geth:8551"` |  |
 | taiko-client.global.l2Endpoints.l2Http | string | `"http://taiko-node-taiko-geth:8545"` |  |
 | taiko-client.global.l2Endpoints.l2Ws | string | `"ws://taiko-node-taiko-geth:8546"` |  |
