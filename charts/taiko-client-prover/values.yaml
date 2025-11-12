@@ -1,6 +1,6 @@
 taiko-client:
   global:
-    network: hekla
+    network: hoodi
     mode: prover
     # Change these to the values of the svc in your namespace
     l1Endpoints:
@@ -22,7 +22,7 @@ taiko-client:
         cpu: 1000m
         memory: 500Mi
     replicaCount: 1
-  hekla:
+  hoodi:
     prover:
       capacity: 1024
       raikoHost: ""

@@ -21,7 +21,7 @@ This is an umbrella chart for running a Taiko node.
 
 | Key | Type | Default | Description |
 |-----|------|---------|-------------|
-| global.network | string | `"hekla"` |  |
+| global.network | string | `"hoodi"` |  |
 | taiko-client.global.l1Endpoints.l1Beacon | string | `"http://ethereum-node-holesky-beacon:5052"` |  |
 | taiko-client.global.l1Endpoints.l1Http | string | `"http://ethereum-node-holesky-execution:8545"` |  |
 | taiko-client.global.l1Endpoints.l1Ws | string | `"ws://ethereum-node-holesky-execution:8545"` |  |

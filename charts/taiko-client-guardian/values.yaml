@@ -1,6 +1,6 @@
 taiko-client:
   global:
-    network: hekla
+    network: hoodi
     mode: guardian
     # Change these to the values of the svc in your namespace
     l1Endpoints:
@@ -22,10 +22,10 @@ taiko-client:
         cpu: 1000m
         memory: 500Mi
     replicaCount: 1
-  hekla:
+  hoodi:
     guardian:
       capacity: 1024
-      healthCheckServer: https://guardian-prover-health-check.hekla.taiko.xyz
+      healthCheckServer: https://guardian-prover-health-check.hoodi.taiko.xyz
       contractAddresses:
         guardianProverMinority: "0x31d4d27da5c299d4b6CE19c869B8891C0002795d"
         guardianProverMajority: "0x92F195a8702da2104aE8E3E10779176E7C35d6BC"

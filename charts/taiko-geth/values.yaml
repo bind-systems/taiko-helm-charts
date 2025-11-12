@@ -1,6 +1,6 @@
 global:
-  # options: [hekla, mainnet]
-  network: hekla
+  # options: [hoodi, mainnet]
+  network: hoodi
   ports:
     p2pPort: 30303
     httpPort: 8545
@@ -22,7 +22,7 @@ global:
     request: 1Ti
   replicaCount: 1
 
-hekla:
+hoodi:
   image:
     repository: us-docker.pkg.dev/evmchain/images/taiko-geth
     tag: v1.5.0

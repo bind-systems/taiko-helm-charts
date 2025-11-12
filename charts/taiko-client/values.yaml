@@ -1,6 +1,6 @@
 global:
-  # options: [hekla, mainnet]
-  network: hekla
+  # options: [hoodi, mainnet]
+  network: hoodi
   # options: [driver, proposer, prover, guardian]
   mode: driver
   l1Endpoints:
@@ -76,7 +76,7 @@ clientArgs:
     - --prover.l1NodeVersion="{{ (index .Values .Values.global.network).guardian.l1NodeInfo }}"
     - --prover.l2NodeVersion="driver:{{ (index .Values .Values.global.network).image.tag }}/taiko-geth:{{ (index .Values .Values.global.network).guardian.taikoGethVersion }}/guardian:{{ (index .Values .Values.global.network).image.tag }}
 
-hekla:
+hoodi:
   image:
     repository: us-docker.pkg.dev/evmchain/images/taiko-client
     tag: taiko-client-v0.29.0
@@ -87,7 +87,7 @@ hekla:
   l2ContractAddresses:
     taikoL2: "0x1670090000000000000000000000000000010001"
   driver:
-    checkpointUrl: "https://rpc.hekla.taiko.xyz"
+    checkpointUrl: "https://rpc.hoodi.taiko.xyz"
 
 mainnet:
   image:
