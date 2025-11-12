@@ -80,7 +80,7 @@ A Helm chart for Kubernetes
 | hoodi.image.tag | string | `"taiko-client-v0.29.0"` |  |
 | hoodi.l1ContractAddresses.taikoL1 | string | `"0xf6eA848c7d7aC83de84db45Ae28EAbf377fe0eF9"` |  |
 | hoodi.l1ContractAddresses.taikoToken | string | `"0x6490E12d480549D333499236fF2Ba6676C296011"` |  |
-| hoodi.l2ContractAddresses.taikoL2 | string | `"0x1670090000000000000000000000000000010001"` |  |
+| hoodi.l2ContractAddresses.taikoL2 | string | `"0x1670130000000000000000000000000000010001"` |  |
 | mainnet.driver.checkpointUrl | string | `"https://rpc.mainnet.taiko.xyz"` |  |
 | mainnet.image.pullPolicy | string | `"IfNotPresent"` |  |
 | mainnet.image.repository | string | `"us-docker.pkg.dev/evmchain/images/taiko-client"` |  |

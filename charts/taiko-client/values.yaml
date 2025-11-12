@@ -85,7 +85,7 @@ hoodi:
     taikoL1: "0xf6eA848c7d7aC83de84db45Ae28EAbf377fe0eF9"
     taikoToken: "0x6490E12d480549D333499236fF2Ba6676C296011"
   l2ContractAddresses:
-    taikoL2: "0x1670090000000000000000000000000000010001"
+    taikoL2: "0x1670130000000000000000000000000000010001"
   driver:
     checkpointUrl: "https://rpc.hoodi.taiko.xyz"
 
